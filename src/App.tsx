@@ -8,10 +8,7 @@ import { motion } from 'motion/react';
 import { Github, Linkedin, Mail, Twitter, Camera, Code2, ArrowRight, Instagram, Facebook, MessageCircle } from 'lucide-react';
 import profileImage from './media/WhatsApp Image 2026-03-03 at 02.58.33.jpeg';
 
-
-
-
-
+const App = () => {
   return (
     <div className="min-h-screen w-full flex flex-col items-center justify-center relative bg-[#030303] selection:bg-indigo-500/30 font-sans overflow-x-hidden">
       {/* Background Atmosphere */}
@@ -206,4 +203,7 @@ import profileImage from './media/WhatsApp Image 2026-03-03 at 02.58.33.jpeg';
       {/* Grain Overlay */}
       <div className="absolute inset-0 opacity-[0.02] pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
     </div>
-  );
+   );
+};
+
+export default App;
