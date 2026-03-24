@@ -8,7 +8,6 @@ import { motion } from 'motion/react';
 import { Github, Linkedin, Mail, Twitter, Camera, Code2, ArrowRight, Instagram, Facebook, MessageCircle } from 'lucide-react';
 import profileImage from './media/WhatsApp Image 2026-03-03 at 02.58.33.jpeg';
 import logoImage from './media/portefeuille.png';
-import noiseSvg from './media/noise.svg';
 import galleryImage1 from './media/1.jpg.jpeg';
 import galleryImage2 from './media/2.jpg.jpeg';
 import galleryImage3 from './media/3.jpg.jpeg';
@@ -294,7 +293,7 @@ const App = () => {
         </p>
       </footer>
 
-      {/* Grain Overlay */}
+      {/* Grain Overlay - Removed due to external URL issues */}
       <div className="absolute inset-0 opacity-[0.02] pointer-events-none bg-[url(noiseSvg)]" />
     </div>
    );
