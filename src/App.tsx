@@ -127,7 +127,7 @@ const App = () => {
               className="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl hover:border-indigo-500/50 transition-all cursor-pointer"
             >
               <h3 className="text-indigo-400 font-bold mb-4 flex items-center gap-2">
-                <span className="text-xl">{'{ }'}</span> Backend
+                <Code2 size={20} /> Backend
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span className="bg-zinc-800 px-3 py-1 rounded-md text-sm text-gray-300">Python (Django)</span>
@@ -144,7 +144,7 @@ const App = () => {
               className="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl hover:border-purple-500/50 transition-all cursor-pointer"
             >
               <h3 className="text-purple-400 font-bold mb-4 flex items-center gap-2">
-                <span className="text-xl">🎨</span> Frontend
+                <Code2 size={20} /> Frontend
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span className="bg-zinc-800 px-3 py-1 rounded-md text-sm text-gray-300">React</span>
@@ -160,7 +160,7 @@ const App = () => {
               className="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl hover:border-pink-500/50 transition-all cursor-pointer"
             >
               <h3 className="text-pink-400 font-bold mb-4 flex items-center gap-2">
-                <span className="text-xl">📸</span> Créatif
+                <Camera size={20} /> Créatif
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span className="bg-zinc-800 px-3 py-1 rounded-md text-sm text-gray-300">DJI Mini 4 Pro</span>
