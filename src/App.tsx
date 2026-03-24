@@ -9,6 +9,10 @@ import { Github, Linkedin, Mail, Twitter, Camera, Code2, ArrowRight, Instagram, 
 import profileImage from './media/WhatsApp Image 2026-03-03 at 02.58.33.jpeg';
 import logoImage from './media/portefeuille.png';
 import noiseSvg from './media/noise.svg';
+import galleryImage1 from './media/1.jpg.jpeg';
+import galleryImage2 from './media/2.jpg.jpeg';
+import galleryImage3 from './media/3.jpg.jpeg';
+import galleryImage4 from './media/aa.jpeg';
 
 const App = () => {
   return (
@@ -85,7 +89,7 @@ const App = () => {
               <div className="w-1 h-1 bg-zinc-700 rounded-full" />
               <span className="flex items-center gap-2">
                 <Camera size={16} className="text-purple-400" />
-                Photographe Aérien
+                Photographe
               </span>
             </div>
           </div>
@@ -100,7 +104,7 @@ const App = () => {
         >
           <p className="text-zinc-400 text-lg md:text-xl leading-relaxed">
             Je conçois des solutions techniques robustes avec <span className="text-white font-semibold">Django & React</span> 
-            tout en capturant le monde sous des angles uniques grâce à la <span className="text-white font-semibold">photographie par drone</span>.
+              tout en capturant le monde sous des angles uniques grâce à la <span className="text-white font-semibold">photographie par drone</span>.
           </p>
         </motion.div>
 
@@ -109,9 +113,6 @@ const App = () => {
           <a href="#contact" className="px-6 py-3 bg-white text-black font-bold rounded-full hover:bg-blue-500 hover:text-white transition-all flex items-center gap-2">
             Me Contacter
             <ArrowRight size={18} />
-          </a>
-          <a href="/cv-wael.pdf" className="px-6 py-3 border border-zinc-700 text-zinc-300 rounded-full hover:bg-zinc-800 transition-all">
-            Télécharger CV
           </a>
         </div>
 
@@ -127,7 +128,7 @@ const App = () => {
               className="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl hover:border-indigo-500/50 transition-all cursor-pointer"
             >
               <h3 className="text-indigo-400 font-bold mb-4 flex items-center gap-2">
-                <Code2 size={20} /> Backend
+                Backend
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span className="bg-zinc-800 px-3 py-1 rounded-md text-sm text-gray-300">Python (Django)</span>
@@ -144,7 +145,7 @@ const App = () => {
               className="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl hover:border-purple-500/50 transition-all cursor-pointer"
             >
               <h3 className="text-purple-400 font-bold mb-4 flex items-center gap-2">
-                <Code2 size={20} /> Frontend
+                Frontend
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span className="bg-zinc-800 px-3 py-1 rounded-md text-sm text-gray-300">React</span>
@@ -160,7 +161,7 @@ const App = () => {
               className="bg-zinc-900/50 border border-zinc-800 p-6 rounded-2xl hover:border-pink-500/50 transition-all cursor-pointer"
             >
               <h3 className="text-pink-400 font-bold mb-4 flex items-center gap-2">
-                <Camera size={20} /> Créatif
+                Créatif
               </h3>
               <div className="flex flex-wrap gap-2">
                 <span className="bg-zinc-800 px-3 py-1 rounded-md text-sm text-gray-300">DJI Mini 4 Pro</span>
@@ -178,25 +179,25 @@ const App = () => {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             <div className="group relative overflow-hidden rounded-xl h-48 bg-zinc-800">
-              <img src={profileImage} alt="Drone shot 1" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer" />
+              <img src={galleryImage1} alt="Drone shot 1" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-end p-4 transition-opacity">
                 <p className="text-xs text-white">Vue aérienne - DJI Mini 4 Pro</p>
               </div>
             </div>
             <div className="group relative overflow-hidden rounded-xl h-48 bg-zinc-800">
-              <img src={profileImage} alt="Drone shot 2" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer" />
+              <img src={galleryImage2} alt="Drone shot 2" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-end p-4 transition-opacity">
                 <p className="text-xs text-white">Perspective unique</p>
               </div>
             </div>
             <div className="group relative overflow-hidden rounded-xl h-48 bg-zinc-800">
-              <img src={profileImage} alt="Drone shot 3" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer" />
+              <img src={galleryImage3} alt="Drone shot 3" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-end p-4 transition-opacity">
                 <p className="text-xs text-white">Horizon capturé</p>
               </div>
             </div>
             <div className="group relative overflow-hidden rounded-xl h-48 bg-zinc-800">
-              <img src={profileImage} alt="Drone shot 4" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer" />
+              <img src={galleryImage4} alt="Drone shot 4" className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-500" referrerPolicy="no-referrer" />
               <div className="absolute inset-0 bg-black/40 opacity-0 group-hover:opacity-100 flex items-end p-4 transition-opacity">
                 <p className="text-xs text-white">Vue panoramique</p>
               </div>
