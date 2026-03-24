@@ -215,15 +215,21 @@ const App = () => {
                 <Code2 size={20} className="text-indigo-400" /> Expériences
               </h3>
               <ul className="text-zinc-300 mb-4 space-y-3">
+                <li><span className="font-bold text-white">Stagiaire PFE | Tunisie Telecom</span> (Jan 2025 - Fév 2025)<br/>Conception plateforme RH avec monitoring Grafana et automatisation DevOps</li>
                 <li><span className="font-bold text-white">Développeur Full Stack | CIAM Solution</span> (Jan 2023 - Fév 2023)<br/>Gestion Scolaire (Java/Spring Boot/Angular)</li>
                 <li><span className="font-bold text-white">Développeur Mobile (Flutter) | Galactech</span> (Jan 2024 - Fév 2024)<br/>Jeu Tic-Tac-Toe professionnel</li>
                 <li><span className="font-bold text-white">Stagiaire Technique | Skidata</span> (Jan 2022 - Fév 2022)<br/>Surveillance, contrôle d'accès</li>
+                <li><span className="font-bold text-white">Restaurant Manager | Capitaine El Bounta</span> (Juin 2019 - Présent)<br/>Ghar El Melh</li>
               </ul>
               <h3 className="text-lg font-semibold text-white mb-2 flex items-center gap-2">
                 <Camera size={20} className="text-pink-400" /> Centres d'intérêts
               </h3>
               <ul className="text-zinc-300">
-                <li>Technologie, Photographie, Football, Gaming, Trading</li>
+                <li>Technologie</li>
+                <li>Photographie</li>
+                <li>Football</li>
+                <li>Gaming</li>
+                <li>Trading</li>
               </ul>
             </div>
             <div>
@@ -294,7 +300,7 @@ const App = () => {
       </footer>
 
       {/* Grain Overlay - Removed due to external URL issues */}
-      <div className="absolute inset-0 opacity-[0.02] pointer-events-none bg-[url(noiseSvg)]" />
+      <div className="absolute inset-0 opacity-[0.02] pointer-events-none" />
     </div>
    );
 };
