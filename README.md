@@ -2,20 +2,47 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Wael Ben Abid - Portfolio
 
-This contains everything you need to run your app locally.
+A modern portfolio showcasing skills in web development, photography, and technology.
 
-View your app in AI Studio: https://ai.studio/apps/3bf4a4e3-0772-4c21-a414-0ed73d444e6d
+## Features
+
+- React 19 + Vite
+- Tailwind CSS 4
+- Framer Motion for animations
+- Lucide React icons
+- Responsive design
 
 ## Run Locally
 
-**Prerequisites:**  Node.js
-
+**Prerequisites:** Node.js
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
-"# wael-ben-abid.github.io"  
+   ```bash
+   npm install
+   ```
+2. Run the development server:
+   ```bash
+   npm run dev
+   ```
+3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+Preview the build:
+```bash
+npm run preview
+```
+
+## Deployment
+
+This site can be deployed to GitHub Pages, Vercel, Netlify, etc.
+
+## License
+
+MIT  

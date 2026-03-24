@@ -207,4 +207,3 @@ import profileImage from './media/WhatsApp Image 2026-03-03 at 02.58.33.jpeg';
       <div className="absolute inset-0 opacity-[0.02] pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')]" />
     </div>
   );
-}
